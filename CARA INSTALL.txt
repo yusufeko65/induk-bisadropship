@@ -1,0 +1,72 @@
+CARA INSTALL DI LOKAL KOMPUTER
+
+1. Jika bukan diinstall di cpanel, maka memerlukan server dengan php7 dan mysql
+
+Download dari https://www.apachefriends.org/xampp-files/7.3.4/xampp-windows-x64-7.3.4-0-VC15-installer.exe
+
+
+2. Jalankan xampp (jalankan mysql, apache http) 
+
+3. Kopikan seluruh file di dalam folder FleetCart ke c:\xampp\htdocs
+
+4. Buat database baru di phpmyadmin dengan nama : fleetcart
+
+5. Untuk mulai instalasi buka web di alamat http://localhost/install 
+
+6. Isikan : 
+	- purchase code isi dengan : codecanyon44462325_u45567
+	- web path isikan dengan http://localhost
+	- mysql hostname isikan dengan : localhost
+	- mysql username isikan dengan : root
+	- mysql password : kosongkan jika tidak ada
+	- mysql database isikan dengan : fleetcart
+
+7. Klik tombol install dan tunggu proses instalasi selesai
+
+8. Web bisa diakses di http://localhost/public
+
+9. Admin : 
+
+http://localhost/public/admin
+
+login : admin@admin.com
+password : admin
+
+
+CARA INSTALL DI CPANEL
+
+1. Upload semua isi di dalam folder FleetCart ke direktori www atau public_html
+
+2. Buat database dan user mysql baru di cpanel lalu berikan hak akses pada database untuk user mysql tersebut
+
+petunjuk lengkap caranya bisa dibaca di 
+https://support.hostgator.com/articles/cpanel/how-do-i-create-a-mysql-database-a-user-and-then-delete-if-needed
+
+atau 
+https://www.liquidweb.com/kb/how-to-assign-a-user-to-a-mysql-database-in-cpanel/
+
+3. Buka nama alamat web untuk path istaller di
+
+http://www.nama-domain-anda.com/public/install
+
+4. Isikan : 
+	- purchase code isi dengan : codecanyon44462325_u45567
+	- web path isikan dengan http://www.nama-domain-anda.com
+	- mysql hostname isikan dengan : localhost
+	- mysql username isikan dengan : username mysql yang tadi dibuat di cpanel
+	- mysql password : password mysql yang tadi dibuat di cpanel
+	- mysql database isikan dengan : nama database yang tadi dibuat di cpanel
+
+5. Klik tombol install dan tunggu proses instalasi selesai
+
+6. Web bisa diakses di http://www.nama-domain-anda.com/public
+
+7. Admin : 
+
+http://www.nama-domain-anda.com/public/admin
+
+login : admin@admin.com
+password : admin
+
+
+	
