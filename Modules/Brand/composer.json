@@ -1,6 +1,6 @@
 {
-    "name": "fleetcart/option",
-    "description": "The FleetCart Option Module.",
+    "name": "fleetcart/brand",
+    "description": "The FleetCart Brand Module.",
     "authors": [
         {
             "name": "Mehedi Hassan",
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Modules\\Option\\": ""
+            "Modules\\Brand\\": ""
         }
     },
     "extra": {

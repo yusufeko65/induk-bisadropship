@@ -2,15 +2,15 @@
 
 use Illuminate\Support\HtmlString;
 
-if (! function_exists('option_name')) {
-    function option_name($option)
+if (! function_exists('brand_name')) {
+    function brand_name($option)
     {
         return new HtmlString($option->name . ($option->is_required ? '<span>*</span>' : ''));
     }
 }
 
-if (! function_exists('option_value')) {
-    function option_value($value)
+if (! function_exists('brand_value')) {
+    function brand_value($value)
     {
         $price = is_null($value->price->amount())
             ? '' :
