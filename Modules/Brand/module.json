@@ -4,7 +4,7 @@
     "active": 1,
     "order": 100,
     "providers": [
-        "Modules\\Brand\\Providers\\OptionServiceProvider",
+        "Modules\\Brand\\Providers\\BrandServiceProvider",
         "Modules\\Brand\\Providers\\RouteServiceProvider",
         "Modules\\Brand\\Providers\\EventServiceProvider"
     ],

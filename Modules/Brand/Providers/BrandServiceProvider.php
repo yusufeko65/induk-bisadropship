@@ -1,16 +1,16 @@
 <?php
 
-namespace Modules\Option\Providers;
+namespace Modules\Brand\Providers;
 
-use Modules\Option\Entities\Option;
-use Modules\Option\Admin\OptionTabs;
+use Modules\Brand\Entities\Brand;
+use Modules\Brand\Admin\BrandTabs;
 use Modules\Support\Traits\AddsAsset;
 use Illuminate\Support\ServiceProvider;
 use Modules\Support\Traits\LoadsConfig;
 use Modules\Admin\Ui\Facades\TabManager;
-use Modules\Option\Admin\ProductTabsExtender;
+use Modules\Brand\Admin\ProductTabsExtender;
 
-class OptionServiceProvider extends ServiceProvider
+class BrandServiceProvider extends ServiceProvider
 {
     use AddsAsset, LoadsConfig;
 
