@@ -20,6 +20,7 @@ class SidebarExtender extends BaseSidebarExtender
                     $this->auth->hasAnyAccess([
                         'admin.products.index',
                         'admin.categories.index',
+                        'admin.brands.index',
                         'admin.attributes.index',
                         'admin.attribute_sets.index',
                         'admin.options.index',
