@@ -1,7 +1,10 @@
 <div class="order-information-wrapper">
     <div class="order-information-buttons">
         <a href="{{ route('admin.orders.print.show', $order) }}" class="btn btn-default" target="_blank" data-toggle="tooltip" title="{{ trans('order::orders.print') }}">
-            <i class="fa fa-print" aria-hidden="true"></i>
+            <i class="fa fa-print" aria-hidden="true"></i> Invoice
+        </a>
+        <a href="{{ route('admin.orders.label.show', $order) }}" class="btn btn-default" target="_blank" data-toggle="tooltip" title="{{ trans('order::orders.label') }}">
+            <i class="fa fa-print" aria-hidden="true"></i> Packing SLip
         </a>
 
         <form method="POST" action="{{ route('admin.orders.email.store', $order) }}">

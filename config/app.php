@@ -62,7 +62,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost/bisadrop-induk'),
+    'url' => env('APP_URL', 'https://induk.bisadropship.com/'),
 
     /*
     |--------------------------------------------------------------------------
