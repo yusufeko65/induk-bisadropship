@@ -18,6 +18,7 @@ return [
         'facebook' => 'Facebook',
         'google' => 'Google',
         'free_shipping' => 'Free Shipping',
+        'raja_ongkir' => 'Raja Ongkir',
         'local_pickup' => 'Local Pickup',
         'flat_rate' => 'Flat Rate',
         'paypal_express' => 'PayPal Express',

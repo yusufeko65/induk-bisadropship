@@ -53,6 +53,9 @@ return [
     'translatable.free_shipping_label' => 'Label',
     'free_shipping_min_amount' => 'Minimum Amount',
 
+    'raja_ongkir_enabled' => 'Status',
+    'translatable.raja_ongkir_label' => 'Label',
+
     'local_pickup_enabled' => 'Status',
     'translatable.local_pickup_label' => 'Label',
     'local_pickup_cost' => 'Cost',
