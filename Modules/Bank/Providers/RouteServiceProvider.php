@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Setting\Providers;
+namespace Modules\Bank\Providers;
 
 use Modules\Core\Providers\RouteServiceProvider as ServiceProvider;
 
@@ -11,7 +11,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Modules\Setting\Http\Controllers';
+    protected $namespace = 'Modules\Bank\Http\Controllers';
 
     /**
      * Get admin routes.

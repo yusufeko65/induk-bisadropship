@@ -32,6 +32,7 @@ class SettingTabs extends Tabs
             ->add($this->google());
 
         $this->group('shipping_methods', trans('setting::settings.tabs.group.shipping_methods'))
+            ->add($this->rajaOngkir())
             ->add($this->freeShipping())
             ->add($this->localPickup())
             ->add($this->flatRate());
@@ -168,6 +169,15 @@ class SettingTabs extends Tabs
             ]);
 
             $tab->view('setting::admin.settings.tabs.google');
+        });
+    }
+
+    private function rajaOngkir()
+    {
+        return tap(new Tab('raja_ongkir', trans('setting::settings.tabs.raja_ongkir')), function (Tab $tab) {
+            $tab->weight(40);
+            $tab->fields(['raja_ongkir_enabled', 'translatable.raja_ongkir_label']);
+            $tab->view('setting::admin.settings.tabs.raja_ongkir');
         });
     }
 
