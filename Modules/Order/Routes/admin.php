@@ -29,3 +29,9 @@ Route::get('orders/{order}/print', [
     'uses' => 'OrderPrintController@show',
     'middleware' => 'can:admin.orders.show',
 ]);
+
+Route::get('orders/{order}/label', [
+    'as' => 'admin.orders.label.show',
+    'uses' => 'OrderLabelController@show',
+    'middleware' => 'can:admin.orders.show',
+]);
