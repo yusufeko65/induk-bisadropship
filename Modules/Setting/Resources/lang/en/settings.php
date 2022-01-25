@@ -46,6 +46,7 @@ return [
         'enable_facebook_login' => 'Enable Facebook Login',
         'enable_google_login' => 'Enable Goggle Login',
         'enable_free_shipping' => 'Enable Free Shipping',
+        'enable_raja_ongkir' => 'Enable Raja Ongkir',
         'enable_local_pickup' => 'Enable Local Pickup',
         'enable_flat_rate' => 'Enable Flat Rate',
         'please_select' => 'Please Select',
