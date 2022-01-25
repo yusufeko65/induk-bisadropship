@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'admin.options' => [
-        'index' => 'option::permissions.options.index',
-        'create' => 'option::permissions.options.create',
-        'edit' => 'option::permissions.options.edit',
-        'destroy' => 'option::permissions.options.destroy',
+    'admin.brands' => [
+        'index' => 'brand::permissions.options.index',
+        'create' => 'brand::permissions.options.create',
+        'edit' => 'brand::permissions.options.edit',
+        'destroy' => 'brand::permissions.options.destroy',
     ],
 ];
